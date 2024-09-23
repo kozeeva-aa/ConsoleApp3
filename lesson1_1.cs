@@ -9,13 +9,13 @@ class Program
     static void Main(string[] args)
     {
         Console.WriteLine("Введите имя ");
-        string name = Console.ReadLine();
+        string? name = Console.ReadLine();
 
         Console.WriteLine("Введите отчество ");
-        string middlename = Console.ReadLine();
+        string? middlename = Console.ReadLine();
 
         Console.WriteLine("Введите фамилию ");
-        string surname = Console.ReadLine();
+        string? surname = Console.ReadLine();
 
         Console.WriteLine($"{name} {middlename} {surname}");
         Console.ReadKey();
